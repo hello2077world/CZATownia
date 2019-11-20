@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gray;
+	font-size: 16px;
+	font-family: 'Merienda', cursive;
+}
+/*-------------------------------------------*/
+/* <header> */
+
+#header_container {
+	height: 90px;
+	background-color: deeppink;
+	display: flex;
+	font-size: 1em;
+}
+
+#header_logo {
+	color: #fff;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#header_slogan {
+	color: #fff;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#header_search {
+	color: #fff;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*-------------------------------------------*/
+/* #article_one */
+
+#article_one {
+	display: flex;
+	background-color: #999;
+	height: 500px;
+	font-size: 1.6em;
+}
+
+/*------------------------*/
+/* #section_choose_room */
+
+#section_choose_room {
+	width: 100%;
+}
+
+#choose_room {
+	background-color: gold;
+	height: 100%;
+	padding: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+#choose_room > * {
+	margin-top: 5%;
+}
+
+#choose_room_button {
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 66px;
+	width: 175px;
+}
+
+/*------------------------*/
+/* #section_random_room */
+
+#section_random_room {
+	width: 100%;
+}
+
+#random_room {
+	background-color: coral;
+	height: 100%;
+	padding: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	border-bottom-left-radius: ;
+}
+
+#random_room > * {
+	margin-top: 5%;
+}
+
+#random_room_button {
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 66px;
+	width: 175px;
+}
+
+/*-------------------------------------------*/
+/* <main> */
+
+#main_container {
+
+}
+
+/*-------------------------------------------*/
+/* <footer> */
+
+#footer_end {
+	text-align: center;
+}
+
+/*-------------------------------------------*/
+/* media queries */
+
+/*##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) {
+	/* Styles */
+}
+
+/*##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+	/* Styles */
+}
+
+/*##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+	/* Styles */
+}
+
+/*##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	/* Styles */
+}
+
+/*##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+	/* Styles */
+}
+
+/*##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+	/* Styles */
+}
